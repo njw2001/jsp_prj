@@ -55,7 +55,7 @@ function requestRss( url, title ){
 				
 				var itemNodes=$(xmlDoc).find("item");
 				output+=" 기사 : <strong>"+ itemNodes.length +"</strong>건<br>";
-				
+				//수정수정앙 수정띠
 				var description="";
 				var itemtitle="";
 				$.each( itemNodes, function(ind, itemNode){
